@@ -1,0 +1,40 @@
+.page-wrapper {
+  background-color: #ADD8E6;
+}
+
+.body-wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: white; 
+  border-radius: 8px; 
+  max-width: 27em; 
+  height: auto;
+}
+
+.qr-code {
+  display: block; 
+  width: 22em; 
+  height: 22em; 
+  padding: 1em; 
+  border-radius: 2em;
+}
+
+.text-black {
+  text-align: center; 
+  margin: 0 auto;
+  max-width: 11em; 
+  word-break: 
+  break-word;
+}
+
+.text-grey {
+  text-align: center; 
+  margin: 0 auto; 
+  max-width: 15em; 
+  word-break: break-word; 
+  color: gray; 
+  padding: 1em;
+}
