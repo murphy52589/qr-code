@@ -1,14 +1,18 @@
 .page-wrapper {
   background-color: #ADD8E6;
+  width: 100%
 }
 
 .body-wrapper {
   background-color: white; 
+  max-width: 22em;
+  margin: auto;
+  padding: 1em;
   border-radius: 4px; 
-  display: flex;           /* establish flex container */
-  flex-direction: column;  /* make main axis vertical */
-  justify-content: center; /* center items vertically, in this case */
-  align-items: center;     /* center items horizontally, in this case */
+  display: flex;
+  flex-direction: column;  
+  justify-content: center; 
+  align-items: center;    
 }
 
 .element {
@@ -21,7 +25,6 @@
   display: block; 
   width: 22em; 
   height: 22em; 
-  padding: 1em; 
   border-radius: 2em;
 }
 
