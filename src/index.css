@@ -3,15 +3,18 @@
 }
 
 .body-wrapper {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
   background-color: white; 
-  border-radius: 8px; 
-  max-width: 27em; 
-  height: auto;
+  border-radius: 4px; 
+  display: flex;           /* establish flex container */
+  flex-direction: column;  /* make main axis vertical */
+  justify-content: center; /* center items vertically, in this case */
+  align-items: center;     /* center items horizontally, in this case */
+}
+
+.element {
+  width: 300px;
+  margin: 5px;
+  text-align: center; 
 }
 
 .qr-code {
